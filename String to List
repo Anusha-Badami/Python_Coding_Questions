@@ -1,0 +1,6 @@
+def string_to_list(string):
+    return list(string)
+
+
+new_list = string_to_list("Anusha Badami")
+print("List of characters:", new_list)
