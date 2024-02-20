@@ -1,0 +1,5 @@
+def square_elements(lst):
+    return [x**2 for x in lst]
+
+squared_list = square_elements([10 , 20 , 30 , 40])
+print("Squared list:", squared_list)
