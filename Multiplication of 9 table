@@ -1,0 +1,10 @@
+ # Getting input via STDIN
+N = int(input())
+
+# Check if N is zero, then print NULL
+if N == 0:
+    print("NULL")
+else:
+    # Print the table of 9 till N
+    for i in range(1, N + 1):
+        print(9 * i, end=" ")
