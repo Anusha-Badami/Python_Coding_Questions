@@ -1,0 +1,10 @@
+# Getting input via STDIN
+A = int(input())
+B = int(input())
+C = int(input())
+
+# Find the largest among A, B, and C
+largest = max(A, B, C)
+
+# Print the largest number
+print(largest)
