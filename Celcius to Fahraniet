@@ -1,0 +1,11 @@
+# Getting input via STDIN
+celsius = float(input())
+
+# Convert Celsius to Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Round the result to two decimal places
+fahrenheit_rounded = round(fahrenheit, 2)
+
+# Print the result
+print(fahrenheit_rounded)
