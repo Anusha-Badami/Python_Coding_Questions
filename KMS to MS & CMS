@@ -1,0 +1,12 @@
+# Getting input via STDIN
+kilometers = float(input())
+
+# Convert kilometers to meters
+meters = kilometers * 1000
+
+# Convert kilometers to centimeters
+centimeters = kilometers * 100000
+
+# Print the results
+print(int(meters))
+print(int(centimeters))
