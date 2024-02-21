@@ -1,0 +1,15 @@
+# Getting input via STDIN
+userInput = int(input())
+
+# Function to calculate factorial
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Calculate factorial
+result = factorial(userInput)
+
+# Print the result
+print("The factorial of", userInput, "is:", result)
