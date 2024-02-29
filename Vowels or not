@@ -1,0 +1,11 @@
+S = input()
+vowels = {'a', 'e', 'i', 'o', 'u'}
+
+for char in S:
+
+    if char in vowels:
+        print("yes")
+        break
+
+else:
+    print("no")
